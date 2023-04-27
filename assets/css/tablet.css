@@ -1,0 +1,490 @@
+@media (min-width: 721px) and (max-width: 768px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        box-sizing: border-box;
+        text-align: center;
+        overflow-x: hidden !important;
+    }
+
+    strong,
+    b {
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 20px;
+        color: #414142;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #414142;
+        ;
+    }
+
+    button {
+        color: #fff;
+        background: #be1e2d;
+        padding: 10px 20px;
+        border-radius: 20px !important;
+        margin: 10px 10px !important;
+        border: 2px solid #be1e2d;
+    }
+
+    button a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: lora;
+    }
+
+    button:hover {
+        background: transparent;
+        border: 2px solid #be1e2d;
+        color: #fff;
+    }
+
+    button:hover a {
+        color: #be1e2d;
+    }
+
+    .container {
+        width: 100% !important;
+        background: #fff;
+    }
+
+    /* global css close */
+
+    /* banner start */
+    .banner {
+        background-image: url(/assets/images/banner2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        margin-top: -180px;
+    }
+
+    .logoArea {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .innerLogo {
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 210px;
+    }
+
+    .innerLogo .logo {
+        width: 20%;
+    }
+
+    .bannerContent {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+        margin: 0px !important;
+    }
+    .bannerContent p{
+        padding: 0px 20px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .banner .carSec .col-md-6 {
+        margin: 10px 0px;
+    }
+
+    .banner .col-md-6 h2:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    .banner .carSec .col-md-6:nth-child(2) {
+        position: relative;
+
+    }
+
+    .banner .carImg {
+        width: 80%;
+        overflow: hidden;
+        position: absolute;
+        top: -80%;
+        right: 15%;
+
+    }
+
+    .banner .carImg .bannerCar {
+        width: 100%;
+
+    }
+
+    /* banner close */
+
+    /* what's your secret start */
+    .secretStart {
+        background: #f2f2f2;
+        padding: 0px;
+        margin-left: -10px;
+    }
+
+    .secretStart .container {
+        background-color: #fff;
+        width: 98% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .secretStart .secretTop:first-child {
+        margin: -150px 0px 40px 0px !important;
+    }
+
+    .secretStart .secretTop {
+        font-size: 24px;
+        font-weight: 600 !important;
+        font-family: lora;
+        text-align: center;
+       
+    }
+
+    /* title area */
+    .secretTitleArea {
+        background-color: #be1e2d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .secretTitleArea h1 {
+        font-family: lora;
+        text-align: center;
+        font-size: 22px;
+        color: #fff !important;
+    }
+
+    .secretContent {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .secretContent p {
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .secretBtnArea {
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .secretContent h3 {
+        font-style: italic;
+    }
+
+    .buttonAreaTwo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttonAreaTwo button {
+        background: transparent;
+        padding: 10px 20px !important;
+        border: 2px dashed #414142;
+        border-radius: 10px !important;
+        color: #414142;
+        font-family: roboto;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .secretTop {
+        font-weight: 400 !important;
+    }
+
+    .trust {
+        color: #be1e2d;
+        font-weight: 500;
+    }
+
+    .reveal {
+        font-family: lora;
+        font-style: italic;
+    }
+
+    .creator {
+        font-family: lora;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    /* what's your secret start */
+
+    /* bannerTwoArea  start*/
+.bannerTowArea .row:first-child{
+    margin: 40px 0px;
+}
+    .bannerTowLeft {
+        width: 100%;
+        padding: 10px 20px 20px 20px !important;
+    }
+
+    .bannerTowLeft h2 {
+        margin: 0px 20px !important;
+        font-size: 20px;
+    }
+
+    .bannerTowRight {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bannerTowRight img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bannerTowContent {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .bannerContentBottom {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bannerContent h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bannerContentBtnArea {
+        margin: 30px auto;
+    }
+
+    .bannerContentBtnArea .btnGroup {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerContentBtnArea button {
+        font-family: roboto;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .bannerContentBtnArea button:hover {
+        color: #be1e2d;
+    }
+
+    /* bannerTwoArea close */
+
+    /* outer banner start */
+    .outerImage {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+    }
+
+    .outerImage img {
+        width: 100%;
+    }
+
+    /* outer banner close */
+    /* card area start */
+    .cardArea .row {
+        margin: 0px 10px !important;
+    }
+
+    .card {
+        border: none !important;
+        border-radius: 10px !important;
+        padding: 10px 10px 10px 0px;
+        margin: 15px 0px 5px !important;
+        width: 99% !important;
+        background: #F3F3F4 !important;
+    }
+
+    .card h3 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .card img {
+        margin: 0px 20px 0px 0px;
+        width: 60px;
+    }
+
+    .card-body {
+        display: flex;
+        align-items: center;
+    }
+
+    .cardTow,
+    .cardFour .card {
+        background-color: #e5e3e4 !important;
+        display: flex;
+        width: 100% !important;
+        margin: 10px 0px !important;
+    }
+
+    /* card area close */
+    .contentOfCard {
+        padding: 10px 10px;
+    }
+
+
+    /* list area start */
+    .listArea {
+        width: 98%;
+        margin: 10px 0px !important;
+        padding: 10px;
+        background: #e5e3e4;
+        border: none;
+        border-radius: 20px;
+    }
+
+    ::marker {
+        font-size: 14px;
+        color: #be1e2d;
+        font-weight: 700;
+    }
+
+    /* list area close */
+
+    /* addTocard area start */
+    .addToCard {
+        background-image: url(/assets/images/footerBg.png);
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .innerAddToCard {
+        width: 100%;
+        padding: 20px 0px 20px 10px;
+    }
+
+    .listTow {
+        display: flex;
+        align-items: center;
+    }
+
+    .listTow p {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .addCart {
+        padding: 50px 0px;
+    }
+
+    .innerCart {
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .innerCart h1 {
+        width: 100%;
+        font-family: lora;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .innerCart .trust {
+        font-family: lora;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .innerCart button {
+        border-top: 2px solid #be1e2d;
+        border-left: 2px solid #be1e2d;
+        border-bottom: 2px solid #1f1f1f;
+        border-right: 2px solid #1f1f1f;
+        border-radius: 50px !important;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: roboto;
+        text-transform: uppercase;
+        padding: 15px 60px !important;
+    }
+
+    .innerCart button:hover {
+        color: #be1e2d;
+    }
+
+    .innerCartRight {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .innerCartRight img {
+        width: 100%;
+    }
+
+    /* addTocard area cose */
+
+    /* footer start */
+    .innerFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        margin: -20px 0px 20px 0px;
+    }
+
+    .innerFooter img {
+        width: 50%;
+    }
+
+    /* footer close */
+
+}
